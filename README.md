@@ -1,4 +1,4 @@
-# Odyssey Voyage II - Server (Airlock)
+# Odyssey Voyage II - Server (Airlock) - @fernandojne-dev
 
 Welcome to the companion app of Odyssey's Voyage II: Federating the Monolith! This is the `server` backend of the Airlock app. You can [find the course lessons and instructions on Odyssey](http://apollographql.com/tutorials/voyage-part2), Apollo's learning platform.
 
@@ -33,7 +33,7 @@ You can take a peek at what the final version of the code should look like (afte
 
 To run the `final` version, navigate to the `final/router` directory.
 
-In a new terminal window, run `APOLLO_KEY=<APOLLO_KEY> APOLLO_GRAPH_REF=<APOLLO_GRAPH_REF> ./router --config config.yaml`. 
+In a new terminal window, run `APOLLO_KEY=<APOLLO_KEY> APOLLO_GRAPH_REF=<APOLLO_GRAPH_REF> ./router --config config.yaml`.
 
 Make sure to replace the values for `APOLLO_KEY` and `APOLLO_GRAPH_REF` (see course content for more details on how to set these up).
 
