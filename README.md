@@ -1,4 +1,4 @@
-# Odyssey Voyage II - Server (Airlock) - @fernandojne-dev
+# Odyssey Voyage II - Server (Airlock)
 
 Welcome to the companion app of Odyssey's Voyage II: Federating the Monolith! This is the `server` backend of the Airlock app. You can [find the course lessons and instructions on Odyssey](http://apollographql.com/tutorials/voyage-part2), Apollo's learning platform.
 
