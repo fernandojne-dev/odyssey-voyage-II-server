@@ -13,7 +13,8 @@
     "postinstall": "npm run install-services",
     "install-services": "node utils/install.js",
     "db:reset": "node utils/reset.js",
-    "rover:publish": "eval $(grep '^APOLLO_GRAPH_REF' .env) && rover subgraph publish $APOLLO_GRAPH_REF --name monolith --routing-url http://localhost:4001 --schema schema.graphql"
+    "rover:publish": "eval $(grep '^APOLLO_GRAPH_REF' .env) && rover subgraph publish $APOLLO_GRAPH_REF --name monolith --routing-url http://localhost:4001 --schema schema.graphql",
+    "router:launch": "eval $(grep '^APOLLO_GRAPH_REF' .env) && eval $(grep '^APOLLO_KEY' .env) && APOLLO_KEY=$APOLLO_KEY APOLLO_GRAPH_REF=$APOLLO_GRAPH_REF ../router/router --config ../router/config.yaml"
 
   },
   "nodemonConfig": {
