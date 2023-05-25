@@ -8,7 +8,8 @@
     "node": ">=14.0.0 <=18"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "rover:publish": "eval $(grep '^APOLLO_GRAPH_REF' .env) && rover subgraph publish $APOLLO_GRAPH_REF --name accounts --routing-url http://localhost:4002 --schema schema.graphql"
   },
   "nodemonConfig": {
     "ext": "*.js, *.graphql"
